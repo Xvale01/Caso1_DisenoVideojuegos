@@ -1,0 +1,516 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1707766134758417, "dur": 2470980, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707766134758735, "dur": 7153, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707766134765891, "dur": 32346, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707766134798240, "dur": 1032486, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707766135830730, "dur": 1388662, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707766137219396, "dur": 9999, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707766137230522, "dur": 55, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1707766135599978, "dur": 212663, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1707766135601366, "dur": 54970, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1707766135788141, "dur": 5428, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1707766135793574, "dur": 19055, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1707766135794484, "dur": 17278, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1707766135819423, "dur": 2209, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1707766135818636, "dur": 3073, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707766137230752, "dur": 397, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1707766135872989, "dur":1326, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766135874320, "dur":54, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1707766135874390, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1707766135874408, "dur":248, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1707766135874677, "dur":903, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766135875580, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137182353, "dur":77, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137182430, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137182466, "dur":42, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137182508, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137182533, "dur":17, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137182550, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137182565, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137182568, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137182579, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137182581, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137182590, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137182592, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137182604, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137182606, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137182615, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137182617, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137182631, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137182647, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137182701, "dur":2419, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1707766135874872, "dur":714, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766135875589, "dur":5011, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766135880613, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1707766135880621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766135882191, "dur":413, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1707766135882610, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1707766135882659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766135883029, "dur":2537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1707766135885569, "dur":11855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1707766135897429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766135897440, "dur":20425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1707766135917907, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1707766135918021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766135918751, "dur":21505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1707766135940329, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766135940558, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766135940640, "dur":2657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766135943337, "dur":76199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136019543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766136019554, "dur":2025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136021620, "dur":27801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136049427, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766136049438, "dur":6091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136055577, "dur":33372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136088956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766136089009, "dur":5438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136094502, "dur":115646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136210153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766136210162, "dur":1485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136211691, "dur":50840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136262545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766136262555, "dur":29030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136291627, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136291828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766136291838, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136293345, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136293644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766136293653, "dur":3453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136297150, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136297375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766136297384, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136299855, "dur":34288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136334149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766136334159, "dur":8666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136342872, "dur":1202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136344079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766136344089, "dur":1726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136345860, "dur":208236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136554103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766136554123, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136555675, "dur":137192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136692874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766136692887, "dur":8493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136701424, "dur":4942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136706371, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766136706382, "dur":4058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136710481, "dur":83669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136794157, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766136794171, "dur":2163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136796388, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136796651, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766136796662, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136798237, "dur":6137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136804379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766136804389, "dur":2917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766136807346, "dur":373737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766137181089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707766137181099, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707766137182325, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1707766137182328, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766135874907, "dur":690, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766135875597, "dur":5007, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766135880613, "dur":12094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1707766135892712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766135892730, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1707766135893911, "dur":81846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766135975762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766135976262, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766135977841, "dur":27611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136005458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136005470, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136006754, "dur":53705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136060464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136060476, "dur":4302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136064819, "dur":24605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136089428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136089435, "dur":7834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136097311, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136097499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136097508, "dur":2231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136099777, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136099984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136099994, "dur":5827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136105863, "dur":1489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136107357, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136107367, "dur":1802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136109208, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136109596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136109605, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136110693, "dur":28057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136138757, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136138769, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136140187, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136140434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136140444, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136141718, "dur":26899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136168622, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136168633, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136170409, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136170764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136170774, "dur":4419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136175239, "dur":33279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136208523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136208533, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136210113, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136210416, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136210447, "dur":4604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136215094, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136215255, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136215263, "dur":3225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136218529, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136218857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136218892, "dur":2831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136221758, "dur":37301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136259065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136259103, "dur":5186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136264333, "dur":26038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136290378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136290390, "dur":1742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136292171, "dur":66486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136358663, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136358675, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136359920, "dur":248186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136608114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136608128, "dur":1623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136609789, "dur":62702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136672499, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136672514, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136673801, "dur":320690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136994499, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707766136994510, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707766136995979, "dur":186370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766135874902, "dur":690, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766135875592, "dur":5014, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766135880613, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1707766135880775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766135883388, "dur":3374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1707766135886817, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1707766135886934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766135886991, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1707766135888697, "dur":10692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1707766135899394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766135899405, "dur":16815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1707766135916279, "dur":144034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1707766136060318, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766136060328, "dur":4919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1707766136065283, "dur":23830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136089119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766136089128, "dur":6127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136095294, "dur":22630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136117930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766136117941, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136119105, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136119295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766136119328, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136120511, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136120691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766136120700, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136121865, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136122214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766136122223, "dur":2851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136125120, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136125346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766136125355, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136126754, "dur":30991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136157753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766136157767, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136159159, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136159321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766136159330, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136160462, "dur":24930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136185398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766136185437, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136186582, "dur":24807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136211395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766136211407, "dur":4677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136216127, "dur":28245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136244378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766136244390, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136246493, "dur":33061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136279560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766136279572, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136281529, "dur":33137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136314671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766136314679, "dur":8397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136323115, "dur":804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136323924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766136323934, "dur":4277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136328257, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136328406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766136328416, "dur":31077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766136360057, "dur":668785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766137028848, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707766137028861, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707766137030676, "dur":151693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707766135874938, "dur":664, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707766135875602, "dur":5001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707766135880612, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1707766135880778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707766135884781, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1707766135886891, "dur":12788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1707766135899683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707766135899693, "dur":26140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1707766135925871, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766135926067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707766135926439, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766135927766, "dur":37699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766135965473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707766135965485, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766135967165, "dur":59520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766136026689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707766136026698, "dur":9906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766136036643, "dur":37962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766136074611, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707766136074623, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766136076163, "dur":128571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766136204742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707766136204756, "dur":1083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766136205880, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766136206128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707766136206138, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766136207587, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766136207864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707766136207873, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766136209241, "dur":36094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766136245341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707766136245351, "dur":19017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766136264422, "dur":1511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766136265937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707766136265947, "dur":2481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766136268468, "dur":24153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766136292625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707766136292635, "dur":3969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766136296651, "dur":754516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766137051173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707766137051186, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707766137052434, "dur":129919, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707766135874966, "dur":641, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707766135875607, "dur":4995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707766135880613, "dur":94730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1707766135975349, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707766135975742, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1707766135976817, "dur":58106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766136034929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707766136034939, "dur":9110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766136044093, "dur":43873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766136087973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707766136087984, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766136089314, "dur":35171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766136124491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707766136124536, "dur":9653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766136134231, "dur":76170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766136210405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707766136210413, "dur":4574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766136215034, "dur":29338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766136244378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707766136244390, "dur":1848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766136246283, "dur":202816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766136449107, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707766136449119, "dur":4055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766136453216, "dur":256442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766136709664, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707766136709695, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766136711274, "dur":1320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766136712601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707766136712610, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766136714440, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766136714724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707766136714734, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766136716283, "dur":288912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766137005913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707766137005924, "dur":2158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707766137008125, "dur":174223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766135874993, "dur":620, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766135875613, "dur":5001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766135880614, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1707766135880782, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766135884803, "dur":2670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1707766135887510, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1707766135887605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766135888198, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1707766135889464, "dur":11260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1707766135900729, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766135900740, "dur":15899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1707766135916673, "dur":107564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan.exe" }}
+,{ "pid":12345, "tid":6, "ts":1707766136024243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136024251, "dur":2357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan.exe" }}
+,{ "pid":12345, "tid":6, "ts":1707766136026647, "dur":185866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136212518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136212527, "dur":14851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136227460, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136227680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136227689, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136228941, "dur":25983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136254929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136254985, "dur":8257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136263285, "dur":39394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136302686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136302697, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136303817, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136304117, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136304127, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136305493, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136305989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136305999, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136307259, "dur":687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136307950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136307960, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136309394, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136309643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136309655, "dur":2535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136312235, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136312491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136312500, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136313673, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136314222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136314231, "dur":7610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136321888, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136322031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136322041, "dur":4555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136326641, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136326916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136326926, "dur":3828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136330796, "dur":607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136331408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136331417, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136333368, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136333528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136333537, "dur":9379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136342958, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136343099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136343108, "dur":2135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136345287, "dur":490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136345781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136345790, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136347564, "dur":124535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136472106, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136472119, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136473518, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136473676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136473686, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136474653, "dur":143411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136618069, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136618080, "dur":6816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136624940, "dur":223790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136848737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136848750, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136849878, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136850016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136850025, "dur":3409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136853494, "dur":92368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136945870, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136946314, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707766136947612, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1707766136947657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136947665, "dur":910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1707766136948617, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1707766136948660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136948668, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1707766136949787, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1707766136949829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136949837, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1707766136951231, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1707766136951272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136951280, "dur":1996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1707766136953316, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1707766136953358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136953367, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1707766136955728, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1707766136955771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136955779, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1707766136957310, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1707766136957350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136957358, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1707766136958610, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1707766136958732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707766136958741, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1707766136959651, "dur":222699, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766135875013, "dur":604, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766135875617, "dur":4991, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766135880613, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1707766135880774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766135883436, "dur":3754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1707766135887226, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1707766135887324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766135887332, "dur":1979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1707766135889352, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1707766135889452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766135889509, "dur":2448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1707766135891995, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1707766135892148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766135892157, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1707766135893568, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1707766135893679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766135893688, "dur":3084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1707766135896810, "dur":231407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707766136128223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766136128324, "dur":13161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707766136141592, "dur":41727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707766136183326, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766136183337, "dur":5128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707766136188511, "dur":25173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707766136213691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766136213701, "dur":3182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707766136216959, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707766136217177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766136217187, "dur":4113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707766136221341, "dur":33192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707766136254540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766136254552, "dur":9006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707766136263601, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707766136263899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766136263907, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707766136265395, "dur":25872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707766136291298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766136291309, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707766136292635, "dur":36716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707766136329356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766136329366, "dur":16729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707766136346136, "dur":535648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707766136881790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766136881804, "dur":2995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707766136884849, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1707766136884899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766136884946, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1707766136886359, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1707766136886413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766136886421, "dur":4397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1707766136890880, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1707766136890945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766136890958, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1707766136892391, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1707766136892560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766136892573, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1707766136894123, "dur":110786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1707766137005908, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707766137005923, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1707766137008027, "dur":174320, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707766135875037, "dur":584, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707766135875622, "dur":4985, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707766135880614, "dur":11468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1707766135892086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707766135892106, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1707766135893548, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1707766135893673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707766135893683, "dur":3317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1707766135897040, "dur":719655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707766136616701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707766136616710, "dur":21942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707766136638708, "dur":63591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707766136702305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707766136702317, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707766136703471, "dur":337284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707766137040760, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707766137040772, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Valeria/Desktop/Nueva carpeta/SquareMan_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707766137043508, "dur":138855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707766137187254, "dur":2650, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1707766137231299, "dur": 1935, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707766137230485, "dur": 2807, "ph": "X", "name": "Write chrome-trace events", "args": {} },
